@@ -53,20 +53,24 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning</h1>
+            <h4 class="title is-4 conference-authors"><a target="_blank" href="https://iclr.cc/Conferences/2025">ICLR 2025</a></h4>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
                 <a href="https://yuanfei-wang.github.io/" target="_blank">Yuanfei Wang</a><sup>*</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=64F5aYMAAAAJ&hl=en" target="_blank">Xiaojie Zhang</a><sup>*</sup>,</span>
+              <span class="author-block">
+                <a href="https://warshallrho.github.io/" target="_blank">Ruihai Wu</a><sup>*</sup>,</span>
+              <br>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                <a href="https://warshallrho.github.io/" target="_blank">Ruihai Wu</a><sup>*</sup>,</span>
+  
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <!-- <span class="author-block">Institution Name<br>Conferance name and year</span> -->
+                    <span class="eql-cntrb"><br><sup>*</sup>Indicates Equal Contribution</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -147,7 +151,23 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Articulated object manipulation is a critical capability for robots to perform various
+            tasks in real-world scenarios. Composed of multiple parts connected by joints, articulated
+            objects are endowed with diverse functional mechanisms through complex
+            relative motions. For example, a safe consists of a door, a handle, and a lock, where
+            the door can only be opened when the latch is unlocked. The internal structure, such
+            as the state of a lock or joint angle constraints, cannot be directly observed from
+            visual observation. Consequently, successful manipulation of these objects requires
+            adaptive adjustment based on trial and error rather than a one-time visual inference.
+            However, previous datasets and simulation environments for articulated objects
+            have primarily focused on simple manipulation mechanisms where the complete
+            manipulation process can be inferred from the object’s appearance. To enhance
+            the diversity and complexity of adaptive manipulation mechanisms, we build a
+            novel articulated object manipulation environment and equip it with 9 categories
+            of objects. Based on the environment and objects, we further propose an adaptive
+            demonstration collection and 3D visual diffusion-based imitation learning pipeline
+            that learns the adaptive manipulation policy. The effectiveness of our designs and
+            proposed method is validated through both simulation and real-world experiments.
           </p>
         </div>
       </div>
@@ -256,7 +276,8 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@inproceedings{
+      <pre><code>
+        @inproceedings{
         wang2025adamanip,
         title={AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning},
         author={Wang, Yuanfei and Zhang, Xiaojie and Wu, Ruihai and Li, Yu and Shen, Yan and Wu, Mingdong and He, Zhaofeng and Wang, Yizhou and Dong, Hao},
