@@ -1,1 +1,1 @@
-**Official Website of AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning**
+Official Website of **AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning**
